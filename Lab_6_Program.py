@@ -26,8 +26,8 @@ def main():
             result = encoder(value)
             print(f"Your password has been encoded and stored!")
 
-        elif option == 2:
-            print(f"The encoded password is {result}, and the original password is {value}.")
+        elif option == 2: #Where decoding function will be used
+            print(f"The encoded password is {result}, and the original password is (value from decoding function).")
 
         elif option == 3:
             break
